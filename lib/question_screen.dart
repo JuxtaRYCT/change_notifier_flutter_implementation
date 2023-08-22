@@ -180,7 +180,7 @@ class Questions extends StatelessWidget {
                   child: QRbutton(),
                 ),
                 Padding(
-                  padding: const EdgeInsets.all(20.0),
+                  padding: const EdgeInsets.only(right: 10),
                   child: IconButton(
                     onPressed: () {
                       itemListNotifier.nextItem();
